@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+
+
+}
+.heading-container{
+    border: 1px solid green;
+    height: 30vh;
+    width: 99%;
+    text-align: center;
+    margin-left: 6px;
+    justify-content: center;
+    margin-top: 10px;
+    background: #1e3a8a;
+}
+.heading-txt{
+    text-align: center;
+    margin-top: 50px;
+}
+.heading-txt h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+.heading-txt .txt2{
+    margin-top: 19px;
+    color: white;
+    font-size: 16px;
+}.heading-txt .txt2 h3{
+    margin-top: 12px;
+}
+#about{
+    margin: 30px;
+    border: 1px solid black;
+    height: 100vh;
+
+}
+#about h2{
+    color: #1e3a8a;
+    font-size: 30px;
+    unicode-bidi: isolate;
+}
+.line{
+    margin-top: 4px;
+    height: 3px;
+    border: 2px solid #3959b1;
+}
+#about p{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+img{
+    height: 450px;
+    border-radius: 10px;
+    border: 5px solid #80b2d8;
+    margin-left: 350px;
+    margin-top: 40px;
+}#link{
+    margin-top: 45px;
+    /* margin-left: 2px; */
+    font-size: 12px;
+}
+#link a{
+    color: #2563eb;
+}
+.event{
+    border: 3px solid green;
+    height: 200vh;
+    margin: 30px;
+}
+.event h2{
+    color: #1e3a8a;
+    font-size: 30px;
+    /* font-weight: 800; */
+    unicode-bidi: isolate;
+}
+.event h3{
+    color:#2563eb;
+    font-size: 22px;
+}
+.event ul{
+    margin-left: 50px;
+    font-size: 19px;
+}
+.event ul li{
+    margin-top: 11px;
+    
+}
+li::marker{
+    color: #3959b1;
+    
+}
+.secndul{
+    list-style: number;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+        border-spacing: 2px;
+}
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+        break-inside: if(media(overflow-block: paged): avoid;);
+    border-color: inherit;
+}
+th{
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 17px;
+        display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+tbody{
+        display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
