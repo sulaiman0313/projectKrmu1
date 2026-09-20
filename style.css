@@ -102,31 +102,24 @@ li::marker{
     list-style: number;
 }
 table{
-    border-collapse: collapse;
     width: 100%;
-    margin-top: 20px;
-        border-spacing: 2px;
-}
-thead{
-    display: table-header-group;
-    vertical-align: middle;
-    unicode-bidi: isolate;
-        break-inside: if(media(overflow-block: paged): avoid;);
-    border-color: inherit;
-}
-th{
-    background-color: #1e3a8a;
-    color: white;
-    font-size: 17px;
-        display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: -internal-center;
-    unicode-bidi: isolate;
+    height: 60vh;
+   border: none;
 }
 tbody{
-        display: table-row-group;
-    vertical-align: middle;
-    unicode-bidi: isolate;
-    border-color: inherit;
+    border-collapse: collapse;
+    
+    
+}
+th{
+    height: 50px;
+    background-color: #1e3a8a;
+    color: rgb(255, 254, 252);
+    
+
+}
+td{
+    text-align: center;
+    background: #eff1f2;
+    border: none;
 }
