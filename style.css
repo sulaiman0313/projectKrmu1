@@ -4,33 +4,36 @@
     margin: 0;
 }
 .main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
     width: 100%;
 
 
 }
 .heading-container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 30vh;
     width: 99%;
     text-align: center;
     margin-left: 6px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 7px;
     background: #1e3a8a;
+    display: flow-root;
+
 }
 .heading-txt{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.heading-txt h1{
+h1{
+    /* margin-top: 40px; */
     font-size: 55px;
     color: white;
     font-weight: 700;
 }
 .heading-txt .txt2{
-    margin-top: 19px;
+    margin-top: 60px;
     color: white;
     font-size: 16px;
 }.heading-txt .txt2 h3{
@@ -38,7 +41,7 @@
 }
 #about{
     margin: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
 
 }
@@ -72,7 +75,7 @@ img{
     color: #2563eb;
 }
 .event{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     height: 200vh;
     margin: 30px;
 }
@@ -122,4 +125,177 @@ td{
     text-align: center;
     background: #eff1f2;
     border: none;
+}
+
+.inform{
+    margin-top: 24px;
+    /* border: 2px solid blueviolet; */
+    height: 120vh;
+    border-radius: 12px;
+    background-color: rgba(0, 149, 255, 0.1);
+    display: flow-root;
+}
+.info{
+    margin: 30px;
+}
+
+
+label{
+    color: #1e3a8a;
+    font-size: 19px;
+    font-weight: bold;
+    /* font-weight: 800; */
+    unicode-bidi: isolate;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+#username{
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+    
+}
+#username::placeholder{
+    color: #423f3f;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-left: 10px;
+    /* text-align: center; */
+
+}
+#email{
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+    
+}
+#email::placeholder{
+    color: #423f3f;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-left: 10px;
+    /* text-align: center; */
+
+}
+#number{
+        height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#gen{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#course{
+            height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#year{
+            height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#event{
+            height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#Address{
+            height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#Address::placeholder{
+        color: #423f3f;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#comments{
+            height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* background-color: rgb(124, 206, 206); */
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+#comments::placeholder{
+    color: #423f3f;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.button{
+    /* border: 10px solid green; */
+    height: 100px;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.button button{
+    height: 50px;
+    width: 180px;
+border-radius: 10px;
+margin-left: 5px;
+border: none;
+
+}
+#submit{
+    background: #2563eb;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+#Reset{
+    background: #333435;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
 }
