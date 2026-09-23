@@ -201,6 +201,12 @@ label{
     border-radius: 4px;
     padding: 10px 15px;
 }
+#number::placeholder{
+        color: #423f3f;
+    margin-left: 300px;
+    font-size: 16px;
+    margin-left: 10px;
+}
 #gen{
     margin-left: 20px;
     margin-top: 10px;
@@ -298,4 +304,36 @@ border: none;
     font-size: 19px;
     color: white;
     font-weight: bold;
+}
+.contact-us{
+    /* border: 10px solid green; */
+    height: 50vh;
+}
+#contact-info{
+    margin-top: 20px;
+    list-style: none;
+    margin-left: -3px;
+}
+span{
+    font-weight: bold;
+}
+
+.last-container{
+    margin-top: -150px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 18vh;
+    width: 99%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.last-container h2{
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 300;
+   
+}
+.con-txt{
+    margin-top: 50px;
 }
